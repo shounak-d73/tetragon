@@ -1,86 +1,114 @@
 body{
-font-size: 16px;
-color: #fff;
-background-color: #4169E1;
-font-family: "Lucida Console", monospace;
+	font-size: 2em;
+	color: #222;
+	background-color: #ede7d6;
+	font-family: 'Montserrat', sans-serif;
 }
 
-#nav-header{
+/*Beginning of Header*/
+
+#header-nav{
+	border: 0;
+	background-color: #fff;
 	border-radius: 0;
-	border-left: 0;
-	border-right: 0;
-	border-color: #222;
-	background-color: #8B0000;
-	text-align: left;
 }
 
 .navbar-brand{
-	padding-bottom: 20px;
+	padding-top: 25px;
 }
 
 .navbar-brand h1{
-	font-size: 1.5em;
-	color: #fff;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px #222;
-	margin-bottom: 0;
-	margin-top: 0;
-}
-
-
-section{
-	height:1000px;
-	background-color: #DAA520;
-	padding: 10px 10px 10px 10px;
-	border: 2px solid black;
-	margin: 20px;
-	text-align: center;
-	overflow: auto;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #222;
-}
-h3{
+	font-style: italic;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #222;
 	font-weight: bold;
-	font-size: 1.2em;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	padding-top: 10px;
+
 }
 
-h2{
-	font-size: 1.5em;
-	color: #fff;
-	font-weight: bold;
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#logo-img{
+	background: url('../images/tetra-logo.jpg') no-repeat;
+	margin: 10px 15px 10px 0px;
+	width: 200px;
+	height: 88px;
+
 }
 
 #nav-list{
-	margin-top: 0;
+	margin-top: 10px;
+}
+#nav-list a{
+	text-align: center;
+	color: #232422;
 }
 
-#nav-list a{
-	color: #951C49;
-	text-align: center;
-	}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
 
+#nav-list a span{
+	font-size: 1.2em;
+}
 
-#nav-list a:hover {
-	background: #DAA520;
+#phone{
+	margin-top: 3px;
+}
+
+#phone a{
+	text-align: right;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-	border: 2px solid #DAA520;
+	border: 2px solid #232422;
 }
 
 .navbar-header button.navbar-toggle{
 	clear: both;
+	margin-top: -30px;
 }
 
-#collapsable-nav a{
-	font-size: 1.1em;
-	font-weight: bold;
-	color: #fff;
-	background-color: #2F4F4F;
-	text-shadow: 1px 1px 1px #222;
+/*End of header*/
+
+/*Media Queries*/
+
+@media(min-width: 1200px){
 
 }
 
-.row{
-	margin: 20px;
+@media(min-width: 992px) and (max-width: 1199px){
+
+	#logo-img{
+	background: url('../images/tetra-logo-medium.jpg') no-repeat;
+	margin: 5px 5px 5px 0;
+	width: 150px;
+	height: 66px;
+}
+
+
+}
+
+@media(min-width: 768px)and (max-width: 991px){
+
+}
+
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 4vw;
+	}
+
 }
