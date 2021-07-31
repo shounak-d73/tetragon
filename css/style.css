@@ -36,10 +36,10 @@ body{
 }
 
 #logo-img{
-	background: url('../images/tetra-logo.jpg') no-repeat;
-	margin: 10px 15px 10px 0px;
-	width: 200px;
-	height: 88px;
+	background: url('../images/tetra-logo-medium.jpg') no-repeat;
+	margin: 10px 15px 30px 0px;
+	width: 150px;
+	height: 66px;
 
 }
 
@@ -88,7 +88,7 @@ body{
 
 	#logo-img{
 	background: url('../images/tetra-logo-medium.jpg') no-repeat;
-	margin: 5px 5px 5px 0;
+	margin: 10px 15px 20px 0;
 	width: 150px;
 	height: 66px;
 }
