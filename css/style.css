@@ -152,6 +152,22 @@ body{
 	margin: 0 auto 30px;
 	}
 
+	#call-button > a{
+		font-size: 1.5em;
+		display: block;
+		margin: 0 20px;
+		padding: 10px;
+		border: 2px solid #000;
+		background-color: #1f1f2e;
+		color: #ede7d6;
+
+	}
+
+	#call-button >a:hover{
+		background-color: #fff;
+		color: #1f1f2e;
+	}
+
 	/*FOOTER*/
 	.panel-footer section{
 		margin-bottom: 30px;
@@ -209,15 +225,15 @@ body{
 
 }
 
-#design-examples-title{
+/*DESIGN PAGE END*/
+
+#text-styles{
 	font-weight: bold;
 }
 
-#design-examples-title + div{
+#text-styles + div{
 	margin-bottom: 50px;
 }
-
-/*DESIGN PAGE END */
 
 /*MAP PAGE */
 
