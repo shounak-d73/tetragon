@@ -233,6 +233,10 @@ body{
 	box-shadow: 0 1px 5px 1px #000;
 }
 
+#address-office{
+	font-weight: bold;
+	font-style: italic;
+}
 /*End of Main Page*/
 
 /*Footer begins*/
