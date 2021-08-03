@@ -88,8 +88,15 @@ body{
 @media(min-width: 1200px){
 
 	.container .jumbotron{
+		background: url('../images/hp-jumbo-1200.jpg') no-repeat;
+		height: 650px;
+		box-shadow: 0 0 50px #1f1f2e;
+		border: 2px solid #3F0C1F;
+	}
+
+	.container .jumbotron2{
 		background: url('../images/jumbopic_1200.jpg') no-repeat;
-		height: 500px;
+		height: 650px;
 		box-shadow: 0 0 50px #1f1f2e;
 		border: 2px solid #3F0C1F;
 	}
@@ -106,8 +113,15 @@ body{
 }
 
 	.container .jumbotron{
+		background: url('../images/hp-jumbo-992.jpg') no-repeat;
+		height: 600px;
+		box-shadow: 0 0 50px #1f1f2e;
+		border: 2px solid #3F0C1F;
+	}
+
+	.container .jumbotron2{
 		background: url('../images/jumbopic_992.jpg') no-repeat;
-		height: 400px;
+		height: 600px;
 		box-shadow: 0 0 50px #1f1f2e;
 		border: 2px solid #3F0C1F;
 	}
@@ -118,8 +132,15 @@ body{
 @media(min-width: 768px)and (max-width: 991px){
 
 	.container .jumbotron{
+		background: url('../images/hp-jumbo-750.jpg') no-repeat;
+		height: 400px;
+		box-shadow: 0 0 50px #1f1f2e;
+		border: 2px solid #3F0C1F;
+	}
+
+	.container .jumbotron2{
 		background: url('../images/jumbopic_750.jpg') no-repeat;
-		height: 300px;
+		height: 400px;
 		box-shadow: 0 0 50px #1f1f2e;
 		border: 2px solid #3F0C1F;
 	}
@@ -192,6 +213,13 @@ body{
 		border: 2px solid #3F0C1F;
 	}
 
+	.container .jumbotron2{
+		margin-top: 30px;                               
+		padding: 0;
+		box-shadow: 0 0 50px #1f1f2e;
+		border: 2px solid #3F0C1F;
+	}
+
 
 }
 
@@ -212,7 +240,19 @@ body{
 	margin: 0 auto 30px;
 }
 
-.example-tile span{
+.example-tile-v{
+	position: relative;
+	border: 4px solid #000;
+	overflow: hidden;
+	max-width: 100%;
+	width: 600px;
+	height: 450px;
+	margin: 0 auto 30px;
+}
+
+
+
+.example-tile span, .example-tile-v span{
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -224,6 +264,7 @@ body{
 	opacity: .8;
 
 }
+
 
 /*DESIGN PAGE END*/
 
@@ -285,3 +326,39 @@ body{
 
 /*End of Footer */
 
+/*New Jumbotron 2*/
+.jumbotron2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+}
+.jumbotron2 h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron2 p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.container .jumbotron2 {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron2 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .container .jumbotron2 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+/*New Jumbotron 2 ends*/
