@@ -265,6 +265,9 @@ body{
 
 }
 
+.img-responsive{
+	height: inherit;
+}
 
 /*DESIGN PAGE END*/
 
@@ -334,15 +337,7 @@ body{
   color: inherit;
   background-color: #eeeeee;
 }
-.jumbotron2 h1,
-.jumbotron .h1 {
-  color: inherit;
-}
-.jumbotron2 p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
-}
+
 .container .jumbotron2 {
   border-radius: 6px;
 }
