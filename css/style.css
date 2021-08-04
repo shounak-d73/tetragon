@@ -88,14 +88,14 @@ body{
 @media(min-width: 1200px){
 
 	.container .jumbotron{
-		background: url('../images/hp-jumbo-1200.jpg') no-repeat;
+		background: url('../images/Jumbotron/hp-jumbo-1200.jpg') no-repeat;
 		height: 650px;
 		box-shadow: 0 0 50px #1f1f2e;
 		border: 2px solid #3F0C1F;
 	}
 
 	.container .jumbotron2{
-		background: url('../images/jumbopic_1200.jpg') no-repeat;
+		background: url('../images/Jumbotron/jumbopic_1200.jpg') no-repeat;
 		height: 650px;
 		box-shadow: 0 0 50px #1f1f2e;
 		border: 2px solid #3F0C1F;
@@ -113,14 +113,14 @@ body{
 }
 
 	.container .jumbotron{
-		background: url('../images/hp-jumbo-992.jpg') no-repeat;
+		background: url('../images/Jumbotron/hp-jumbo-992.jpg') no-repeat;
 		height: 600px;
 		box-shadow: 0 0 50px #1f1f2e;
 		border: 2px solid #3F0C1F;
 	}
 
 	.container .jumbotron2{
-		background: url('../images/jumbopic_992.jpg') no-repeat;
+		background: url('../images/Jumbotron/jumbopic_992.jpg') no-repeat;
 		height: 600px;
 		box-shadow: 0 0 50px #1f1f2e;
 		border: 2px solid #3F0C1F;
@@ -132,14 +132,14 @@ body{
 @media(min-width: 768px)and (max-width: 991px){
 
 	.container .jumbotron{
-		background: url('../images/hp-jumbo-750.jpg') no-repeat;
+		background: url('../images/Jumbotron/hp-jumbo-750.jpg') no-repeat;
 		height: 400px;
 		box-shadow: 0 0 50px #1f1f2e;
 		border: 2px solid #3F0C1F;
 	}
 
 	.container .jumbotron2{
-		background: url('../images/jumbopic_750.jpg') no-repeat;
+		background: url('../images/Jumbotron/jumbopic_750.jpg') no-repeat;
 		height: 400px;
 		box-shadow: 0 0 50px #1f1f2e;
 		border: 2px solid #3F0C1F;
