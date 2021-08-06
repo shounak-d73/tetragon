@@ -1,6 +1,6 @@
 $(function() {
 
-	$("#navbar-toggle").blur(function(event) {
+	$("#navbarToggle").blur(function(event) {
 		var screenwidth = window.innerWidth;
 		if(screenwidth < 768) {
 			$("#collapsable-nav").collapse('hide');
@@ -10,6 +10,7 @@ $(function() {
 
 });
 
+/*
 
 (function (global) {
 
@@ -41,3 +42,5 @@ $(function() {
 global.$tecpl=tecpl;
 
 })(window);
+
+*/
