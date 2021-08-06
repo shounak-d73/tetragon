@@ -1,6 +1,6 @@
 $(function() {
 
-	$("#navbarToggle").blur(function(event) {
+	$("#collapsable-nav").blur(function(event) {
 		var screenwidth = window.innerWidth;
 		if(screenwidth < 768) {
 			$("#collapsable-nav").collapse('hide');
