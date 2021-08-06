@@ -38,7 +38,6 @@ $(function() {
 
 	});
 
-
 global.$tecpl=tecpl;
 
 })(window);
